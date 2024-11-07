@@ -1,0 +1,39 @@
+*Node JS init (npm init --y)
+*package.json (this is created when we run the above command from the terminal)
+*Express js backend with packages installation
+   i) Express js installation ( npm i express)
+   ii) npm i cookie-parser
+   iii) npm i cors
+   iv) npm i express-rate-limit
+   v) npm i helmet
+   vi) npm i hpp
+   vii) npm i jsonwebtoken
+   viii) npm i mongoose
+   ix) npm i nodemailer
+   x) npm i nodemon (to run the project after all settings this will need to be installed)
+
+   * 4 File Folder Structure:
+      1. config = config.js, 
+      2. controllers = todoController.js
+      3. middlewares = todoMiddlewares.js
+      4. models
+      5. Utility = todoUtility.js
+      6. Routes = apiRouting.js (MRN note: as much as function in controller, api qty should be as much)
+      7. Storage
+
+      8. app.js:
+         a. import applications all packages
+         b. Global Application middlewares
+         c. Rate Limiter
+         d. Web Caching
+         e. MongoDB Connection
+         f. Set API Routes
+         g. Set Application Storage
+         h. Run Your Express Back End Project
+
+      9. Debugging
+
+      10. How to work with Request params?
+          *Parametter can be sent with -- using url/in url & with query sting/in query string.
+         ইউ আর এল এর শব্দটার পর ব্যকস্ল্যাস দিয়ে; যেমন- routes ফোল্ডারের api.js ফাইলে createTask শব্দটার
+         পর স্ল্যাসের পর কোলন দিয়ে যে কোন ওয়ার্ড দিতে পারে যেমন- createTask/:name/:age/:address etc.   
